@@ -11,9 +11,11 @@
     "declarations"
   ],
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "files": [
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
   "homepage": "https://github.com/keysh/rollup-plugin-generate-declarations#readme",
   "repository": {
     "type": "git",
@@ -22,27 +24,14 @@
   "bugs": {
     "url": "https://github.com/keysh/rollup-plugin-generate-declarations/issues"
   },
-  "eslintConfig": {
-    "env": {
-      "es2020": true,
-      "node": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-      "ecmaVersion": 11,
-      "sourceType": "module"
-    }
-  },
-  "prettier": {
-    "arrowParens": "always",
-    "singleQuote": true
-  },
   "scripts": {
     "lint": "eslint --fix lib/index.js",
     "style": "prettier --write lib/index.js"
   },
-  "dependencies": {},
-  "peerDependencies": {},
+  "peerDependencies": {
+    "rollup": "^2.18.0",
+    "typescript": ">=3.9.0"
+  },
   "devDependencies": {
     "eslint": "^7.6.0",
     "prettier": "^2.0.5"
