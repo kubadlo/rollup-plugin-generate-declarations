@@ -1,0 +1,12 @@
+# NodeJS
+node_modules/
+npm-debug.log
+
+# Sublime Text
+*.sublime-workspace
+
+# VSCode
+.vscode/
+
+# WebStorm
+.idea/

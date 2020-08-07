@@ -1,0 +1,50 @@
+{
+  "name": "rollup-plugin-generate-declarations",
+  "description": "Simple rollup plugin to run `tsc --emitDeclarationOnly` right from the rollup config.",
+  "author": "Jakub Leško <mail@jakublesko.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "typescript",
+    "declarations"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/keysh/rollup-plugin-generate-declarations#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keysh/rollup-plugin-generate-declarations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keysh/rollup-plugin-generate-declarations/issues"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2020": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 11,
+      "sourceType": "module"
+    }
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true
+  },
+  "scripts": {
+    "lint": "eslint --fix lib/index.js",
+    "style": "prettier --write lib/index.js"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "prettier": "^2.0.5"
+  }
+}
