@@ -2,7 +2,7 @@
   "name": "rollup-plugin-generate-declarations",
   "description": "Simple rollup plugin to run `tsc --emitDeclarationOnly` right from the rollup config.",
   "author": "Jakub Leško <mail@jakublesko.com>",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "keywords": [
     "rollup",
@@ -29,11 +29,11 @@
     "style": "prettier --write lib/index.js"
   },
   "peerDependencies": {
-    "rollup": "^2.18.0",
-    "typescript": ">=3.9.0"
+    "rollup": ">=2.30.0",
+    "typescript": ">=4.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.6.0",
-    "prettier": "^2.0.5"
+    "eslint": "^7.16.0",
+    "prettier": "^2.2.1"
   }
 }
