@@ -10,7 +10,7 @@ This rollup plugin will generate them for you automatically, so you don't have
 
 ## How?
 
-Just install this package as `devDependency` with:
+Just install this package as `devDependency` with your preferred package manager:
 ```bash
 $ npm install rollup-plugin-generate-declarations --save-dev
 ```
